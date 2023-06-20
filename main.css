@@ -1,0 +1,57 @@
+html,body {
+    font-family:"Verdana",sans-serif;
+    background-color: #cfe0e8;
+    height: 100vh;
+          }
+h1,h2,h3,h4,h5,h6 {
+    font-family:"Segoe UI",sans-serif
+                  }
+.center{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+#header{
+    background-color: #87bdd8;
+}
+#content{
+    background-color: #b7d7e8;
+    display:block;
+
+}
+#personal_info{
+    width:50%;
+    float:left;
+    height: 300px;
+    overflow:hidden;
+}
+#profile_pic{
+    width:50%;
+    float: right;
+    
+}
+
+img{
+    max-height: 300px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius:10%;
+}
+
+#main_body{
+    padding-top:300px;
+}
+
+ul {
+    margin: 0;
+  }
+  ul.dashed {
+    list-style-type: none;
+  }
+  ul.dashed > li {
+    text-indent: -5px;
+  }
+  ul.dashed > li:before {
+    content: "-";
+    text-indent: -5px;
+  }
